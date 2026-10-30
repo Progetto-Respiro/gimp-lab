@@ -73,7 +73,7 @@ Prima di iniziare una voce, verificare sul GitLab di GIMP se esiste già o se qu
 | Funzione | Via | Stato |
 |---|---|---|
 | Registratore di azioni (macro) | plugin | ⬜ |
-| Elaborazione in batch integrata | plugin | ⬜ |
+| Elaborazione in batch integrata | plugin | 🧪 |
 | Gestore di estensioni | patch | ⬜ |
 
 ## 8. Flusso di lavoro professionale
@@ -81,7 +81,7 @@ Prima di iniziare una voce, verificare sul GitLab di GIMP se esiste già o se qu
 | Funzione | Via | Stato |
 |---|---|---|
 | Tavole da disegno (artboard) multiple | architettura | ⬜ |
-| Esportazione rapida di livelli e risorse | plugin | ⬜ |
+| Esportazione rapida di livelli e risorse | plugin | 🧪 |
 | Sviluppo RAW integrato o collegamento migliore | plugin | ⬜ |
 | Compatibilità PSD più completa | patch | ⬜ |
 | Composizioni di livelli (layer comps) | plugin | ⬜ |
@@ -150,4 +150,6 @@ Prima di iniziare una voce, verificare sul GitLab di GIMP se esiste già o se qu
 
 ## Prossimo passo
 
-Primo lavoro proposto: **registratore di azioni** oppure **esportatore in batch** (area 7), come plugin Python.
+In test: **GIMP Lab Export** (`plugins/gimp-lab-export`), esportazione in un colpo per Instagram, sito e portfolio.
+
+Dopo: **registratore di azioni** (area 7).
